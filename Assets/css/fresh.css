@@ -228,7 +228,7 @@ img.vert-move {
     margin-top: 150px;
 }
 .grid-section-part-1{
-    padding: 12% 3% 0 3%;
+    padding: 10% 3% 0 3%;
     flex-basis: 45%;
 }
 .grid-section-part-2{
@@ -524,7 +524,7 @@ img.vert-move {
 }
 @media screen and (max-width:1900px){
     .grid-section-part-1{
-        padding: 10% 3% 0 3%;;
+        padding: 12% 3% 0 3%;;
         flex-basis: 45%;
         align-self: center;
     }
@@ -534,7 +534,7 @@ img.vert-move {
 
 
 /* Above 1440px */
-@media  only screen and (max-width: 1441px ) {
+@media  only screen and (max-width: 1440px ) {
 
     .nav-inner{
         display: flex;
