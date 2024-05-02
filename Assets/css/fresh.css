@@ -524,10 +524,21 @@ img.vert-move {
         justify-content: center;
     }
 
+    .main-font{
+        color: var(--yellow-font-color);
+        font-size: var(--main-font-size-1200px);
+        font-family: var(--bayon-font-family);
+        font-weight: lighter;
+        line-height: 75px;
+    }
+
     .grid-section-part-1{
-        padding: 6% 3% 0 3%;
+        padding: 3% 3% 3% 3%;
         flex-basis: 50%;
-    
+    }
+    .grid-section-part-1 p{
+        margin-top: 10px;
+        width: 100%;
     }
 
 }
