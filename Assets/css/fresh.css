@@ -20,6 +20,7 @@
     color: var(--yellow-font-color);
     font-size: var(--main-font-size-1200px);
     font-family: var(--bayon-font-family);
+    font-weight: lighter;
 }
 .para-db-font{
     color: var(--para-font-size-1200px);
@@ -60,7 +61,7 @@
 }
 .grid-section{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 
@@ -197,12 +198,7 @@ img.vert-move {
 .choose-text{
     padding: 0 5% 0 5%;
 }
-.choose-text h1{
-    color: var(--yellow-font-color);
-    font-family: var(--bayon-font-family);
-    font-size: var(--main-font-size-1200px);
-    font-weight: lighter;
-}
+
 .choose-text p{
     color: var(--dark-brown-font-color);
     font-size: var(--para-font-size-1200px);
@@ -487,14 +483,7 @@ img.vert-move {
 
 
 
-
-
-
-
-
-
-/* Above 1440px */
-@media  only screen and (min-width: 1441px ) {
+@media screen and (min-width: 2000px) {
     .hero-section{
         padding: 0 20%;
     }
@@ -503,6 +492,7 @@ img.vert-move {
     }
     .mission-section {
         padding: 0 20%;
+        margin-bottom: 0%;
     }
     .meal-section {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
@@ -516,6 +506,15 @@ img.vert-move {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         justify-content: center;
     }
+}
+
+
+
+
+
+/* Above 1440px */
+@media  only screen and (max-width: 1441px ) {
+
     .nav-inner{
         display: flex;
         justify-content: center;
