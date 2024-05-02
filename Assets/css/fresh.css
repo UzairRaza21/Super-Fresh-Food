@@ -547,19 +547,19 @@ img.vert-move {
 }
 @media screen and (max-width: 1600px) {
     .hero-section{
-        padding: 0 10%;
+        padding: 0 15%;
     }
     .choose-section {
-        padding: 0 10%;
+        padding: 0 15%;
     }
     .mission-section {
-        padding: 0 10%;
+        padding: 0 15%;
         margin-bottom: 0%;
     }
 
     .news-section {
         justify-content: space-between;
-        padding: 0 10%;
+        padding: 0 15%;
     }
 }
 
