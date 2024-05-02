@@ -158,7 +158,7 @@ body{
 }
 
 .hero-section-img img {
-    width: 100%;
+    width: 90%;
 }
 
 img.vert-move {
@@ -169,7 +169,7 @@ img.vert-move {
 @keyframes mover {
     0% { transform: translate(0, 0); }
     50% { transform: translateY(5px); }
-    100% { transform: translate(5px, 5px); }
+    100% { transform: translate(6px, 6px); }
 }
 .hero-section-text{
     padding: 0 70px 0 70px ;
@@ -248,7 +248,7 @@ img.vert-move {
 
 }
 .grid-section-part-1{
-    padding: 12% 3% 0 3%;
+    padding: 10% 3% 0 3%;
     flex-basis: 50%;
 
 }
@@ -563,29 +563,16 @@ img.vert-move {
         width: 100%;
         margin-left: 0px;
     }
-
-
-    /* .grid-section-part-1{
-        padding: 14% 3% 0 3%;;
-        flex-basis: 45%;
-        align-self: center;
+    .grid-section-part-1{
+        padding: 12% 3% 0 3%;
+        flex-basis: 50%;
+    
     }
-    .grid-section-part-2{
-        flex-basis: 55%;
-        box-sizing: border-box;
-        overflow: hidden;
-        align-self: center;
-    }
-    .grid-section-part-2 img{
-        width: 60%;
-    } */
 
     
 }
 
-@media screen and (max-width: 1440px) {
 
-}
 
 /* upto 1200px */
 @media screen and (max-width: 1200px) {
@@ -604,6 +591,11 @@ img.vert-move {
         width: 100%;
         z-index: 10;
     } 
+    .grid-section-part-1{
+        padding: 12% 3% 0 3%;
+        flex-basis: 50%;
+    
+    }
 
 }
 
