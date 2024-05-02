@@ -546,7 +546,7 @@ img.vert-move {
 
 }
 @media screen and (max-width: 1600px) {
-    .hero-section{
+    /* .hero-section{
         padding: 0 15%;
     }
     .choose-section {
@@ -560,7 +560,7 @@ img.vert-move {
     .news-section {
         justify-content: space-between;
         padding: 0 15%;
-    }
+    } */
 }
 
 
