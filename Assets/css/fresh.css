@@ -23,8 +23,8 @@
     font-weight: lighter;
 }
 .para-db-font{
-    color: var(--para-font-size-1200px);
-    font-size: var(--dark-brown-font-color);
+    color: var(--dark-brown-font-color);
+    font-size: var(--para-font-size-1200px);
     font-family: var(--outfit-font-family);
 }
 .para-b-font{
@@ -224,40 +224,36 @@ img.vert-move {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    margin-bottom: 50%;
+    display: flex;
+    margin-top: 150px;
 }
 .grid-section-part-1{
-    padding: 25% 5% 0 5%;
-    align-self: center;
-    justify-self: center;
+    padding: 12% 3% 0 3%;
+    flex-basis: 45%;
 }
 .grid-section-part-2{
-    align-self: center;
-    justify-self: center;
+    flex-basis: 55%;
+    box-sizing: border-box;
+    overflow: hidden;
+    align-self: flex-end;
+    margin-left: 5%;
 }
+.grid-section-part-2 img{
+    width: 70%;
 
-
-.grid-section-part-1 h1{
-    font-size: var(--main-font-size-1200px);
-    font-family: var(--bayon-font-family);
+}
+.grid-section-part-1-text h1{
     color: white;
-    font-weight: lighter;
 }
 
-.grid-section-part-1 p{
-    font-size: var(--para-font-size-1200px);
-    color: var(--dark-brown-font-color);
-    width: 80%;
-}
+
+
 
 .grid-section-part-1 button{
     margin-top: 20px;
 }
 
-.grid-section-part-2 img{
-    width: 100%;
 
-}
 
 .rotate {
     animation: rotation 8s infinite linear;
@@ -506,6 +502,18 @@ img.vert-move {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         justify-content: center;
     }
+    .grid-section-part-1{
+        padding: 14% 3% 0 3%;
+        flex-basis: 45%;
+    }
+    .grid-section-part-2{
+        flex-basis: 55%;
+        align-self: center;
+        margin-left: 0%;
+    }
+    .grid-section-part-2 img{
+        width: 100%;
+    }
 }
 
 
@@ -526,18 +534,29 @@ img.vert-move {
         width: 100%;
         margin-left: 0px;
     }
+
+
+    .grid-section-part-1{
+        padding: auto;
+        flex-basis: 45%;
+        align-self: center;
+    }
+    .grid-section-part-2{
+        flex-basis: 55%;
+        box-sizing: border-box;
+        overflow: hidden;
+        align-self: center;
+        margin-left: 0%;
+    }
+    .grid-section-part-2 img{
+        width: 75%;
+    }
+
+    
 }
 
 @media screen and (max-width: 1440px) {
-    .mission-section{
-        margin-bottom: 20%;
-        margin-top: 150px;
-    }
-    .grid-section-part-1 {
-        padding: 23% 5% 0 5%;
-        align-self: center;
-        justify-self: center;
-    }
+
 }
 
 /* upto 1200px */
@@ -589,24 +608,30 @@ img.vert-move {
     .choose-text p{
         font-size: var(--para-font-size-1024px);
     }
-    .grid-section-part-1 h1{
-        font-size: var(--main-font-size-1024px);
-        line-height: 60px;
+
+    .mission-section{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        justify-content: center;
     }
-    
-    .grid-section-part-1 p{
-        font-size: var(--para-font-size-1024px);
+    .grid-section-part-1{
+        padding: 12% 3% 35% 3%;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .grid-section-part-2{
+        flex-basis: 100%;
+        margin-left: 0%;
+        align-self: center;
+    }
+    .grid-section-part-2 img{
         width: 100%;
     }
 
-    .grid-section-part-1 {
-        text-align: center;
-        padding: 17% 5% 0 5%;
-    }
 
-    .mission-section{
-        margin-bottom: 60%;
-    }
+
+
 
 
     
@@ -730,15 +755,8 @@ img.vert-move {
         font-size: var(--para-font-size-768px);
         font-family: var(--outfit-font-family);
     }
-    .mission-section{
-        height: 100vh;
-        margin-bottom: 80%;
-    }
-    .grid-section-part-1{
-        padding: 22% 5% 0 5%;
-        align-self: flex-end;
-        justify-self: center;
-    }
+
+
 
     .hero-section-text {
         text-align: center;
@@ -771,15 +789,8 @@ img.vert-move {
     padding: 0 10px 0 10px;
 }
 
-.mission-section{
-    height: 100vh;
-    margin-bottom: 120%;
-}
-.grid-section-part-1{
-    padding: 39% 5% 0 5%;
-    align-self: flex-end;
-    justify-self: center;
-}
+
+
 
 .meal-section {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -839,11 +850,7 @@ img.vert-move {
 }
 
 @media screen and (max-width:375px){
-    .grid-section-part-1 {
-        padding: 44% 5% 0 5%;
-        align-self: flex-end;
-        justify-self: center;
-    }
+
     .hero-section-text h1 {
         font-size: 120px;
         line-height: 120px;
@@ -852,9 +859,5 @@ img.vert-move {
 }
 
 @media screen and (max-width: 320px){
-    .grid-section-part-1 {
-        padding: 50% 5% 0 5%;
-        align-self: flex-end;
-        justify-self: center;
-    }
+
 }
