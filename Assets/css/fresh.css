@@ -544,6 +544,8 @@ img.vert-move {
         flex-basis: 50%;
     }
 
+}
+@media screen and (max-width: 1600px) {
     .hero-section{
         padding: 0 10%;
     }
