@@ -542,7 +542,22 @@ img.vert-move {
     .grid-section-part-1{
         padding: 16% 3% 0 3%;
         flex-basis: 50%;
-    
+    }
+
+    .hero-section{
+        padding: 0 10%;
+    }
+    .choose-section {
+        padding: 0 10%;
+    }
+    .mission-section {
+        padding: 0 10%;
+        margin-bottom: 0%;
+    }
+
+    .news-section {
+        justify-content: space-between;
+        padding: 0 10%;
     }
 }
 
