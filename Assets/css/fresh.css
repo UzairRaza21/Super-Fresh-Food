@@ -36,28 +36,40 @@
 
 
 .web-button{
-    width: 180px;
-    height: 50px;
-    font-family: var(--outfit-font-family);
+    width: 200px;
+    height: 55px;
+    font-family: var(--bayon-font-family);
     color: white;
     text-transform: uppercase;
-    font-size: 22px;
+    font-size: 29px;
     background-color: var(--brown-font-color);
-    border-radius: 10px;
+    border-radius: 15px;
     border: 0px;
-    font-weight: 500;
-    box-shadow: 2px 2px 5px rgb(133, 129, 129);
+    font-weight: 400;
+    box-shadow: 0px 30px 36.1px -4px rgba(148, 148, 148, 0.4);
+    text-shadow: 4px 4px 3px rgba(148, 148, 148, 0.4);
+    transition: all 500ms;
+    cursor: pointer;
+}
+.web-button:hover{
+    background-color: white;
+    color: var(--brown-font-color) ;
+    border: 1px solid var(--brown-font-color);
 }
 
 .web-button-white{
-    width: 180px;
-    height: 50px;
+    width: 200px;
+    height: 55px;
     background-color: white;
     border: 3px solid var(--brown-font-color);
     font-family: var(--bayon-font-family);
     border-radius: 10px;
     font-size: var(--para-font-size-1200px);
     color: var(--brown-font-color);
+    cursor: pointer;
+}
+.web-button-white:hover{
+    border: 1px solid var(--brown-font-color);
 }
 .grid-section{
     display: grid;
@@ -229,17 +241,17 @@ img.vert-move {
 }
 .grid-section-part-1{
     padding: 10% 3% 0 3%;
-    flex-basis: 45%;
+    flex-basis: 40%;
 }
 .grid-section-part-2{
-    flex-basis: 55%;
+    flex-basis: 60%;
     box-sizing: border-box;
     overflow: hidden;
     align-self: flex-end;
     margin-left: 5%;
 }
 .grid-section-part-2 img{
-    width: 70%;
+    width: 65%;
 
 }
 .grid-section-part-1-text h1{
