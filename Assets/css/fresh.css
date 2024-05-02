@@ -502,13 +502,13 @@ img.vert-move {
 
 @media screen and (min-width: 1920px) {
     .hero-section{
-        padding: 0 20%;
+        padding: 0 15%;
     }
     .choose-section {
-        padding: 0 20%;
+        padding: 0 15%;
     }
     .mission-section {
-        padding: 0 20%;
+        padding: 0 15%;
         margin-bottom: 0%;
     }
     .meal-section {
@@ -517,7 +517,7 @@ img.vert-move {
     }
     .news-section {
         justify-content: space-between;
-        padding: 0 20%;
+        padding: 0 15%;
     }
     .news-letters-carts {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
@@ -539,6 +539,14 @@ img.vert-move {
     .grid-section-part-1 p{
         margin-top: 10px;
         width: 100%;
+    }
+
+    .nav-inner {
+        justify-content: center;
+    }
+    .nav-logo{
+        margin-right: 10%;
+        
     }
 
 }
