@@ -238,6 +238,7 @@ img.vert-move {
     height: 100vh;
     display: flex;
     margin-top: 150px;
+    /* padding: 0 20% 0 20%; */
 }
 .grid-section-part-1{
     padding: 10% 3% 0 3%;
@@ -251,7 +252,7 @@ img.vert-move {
     margin-left: 5%;
 }
 .grid-section-part-2 img{
-    width: 65%;
+    width: 60%;
 
 }
 .grid-section-part-1-text h1{
@@ -574,7 +575,7 @@ img.vert-move {
         margin-left: 0%;
     }
     .grid-section-part-2 img{
-        width: 70%;
+        width: 60%;
     }
 
     
