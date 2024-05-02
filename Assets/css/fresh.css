@@ -512,10 +512,23 @@ img.vert-move {
         margin-left: 0%;
     }
     .grid-section-part-2 img{
-        width: 100%;
+        width: 90%;
     }
 }
-
+@media screen and (max-width:1800px){
+    .grid-section-part-1{
+        padding: 15% 3% 0 3%;;
+        flex-basis: 45%;
+        align-self: center;
+    }
+}
+@media screen and (max-width:1900px){
+    .grid-section-part-1{
+        padding: 10% 3% 0 3%;;
+        flex-basis: 45%;
+        align-self: center;
+    }
+}
 
 
 
@@ -537,7 +550,7 @@ img.vert-move {
 
 
     .grid-section-part-1{
-        padding: auto;
+        padding: 14% 3% 0 3%;;
         flex-basis: 45%;
         align-self: center;
     }
@@ -549,7 +562,7 @@ img.vert-move {
         margin-left: 0%;
     }
     .grid-section-part-2 img{
-        width: 75%;
+        width: 70%;
     }
 
     
