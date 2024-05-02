@@ -249,7 +249,6 @@ img.vert-move {
     box-sizing: border-box;
     overflow: hidden;
     align-self: flex-end;
-    margin-left: 5%;
 }
 .grid-section-part-2 img{
     width: 60%;
