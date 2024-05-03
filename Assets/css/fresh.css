@@ -672,6 +672,12 @@ img.vert-move {
         font-family: var(--outfit-font-family);
     }
     
+    .hero-section {
+        padding: 0 10px;
+    }
+    .choose-section {
+        padding: 0 10px;
+    }
 
     .hero-section-text h1{
         font-size: 150px;
@@ -705,12 +711,6 @@ img.vert-move {
         width: 100%;
     }
 
-
-
-
-
-
-    
 .meal-section{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
@@ -857,15 +857,46 @@ img.vert-move {
 
 @media  screen and (max-width: 425px) {
 
-/* .grid-section {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-} */
+
 .hero-section-text {
     text-align: center;
     padding: 0 10px 0 10px;
 }
+.hero-section-text p {
+    font-size: var(--para-font-size-1024px);
+}
 
+.choose-text p {
+    font-size: var(--para-font-size-768px);
+}
+.meal-cart p {
 
+    font-size: var(--para-font-size-768px);
+}
+.news-section-text p {
+    font-size: var(--para-font-size-768px);
+}
+.news-carts p {
+    font-size: 18px;
+    text-align: center;
+}
+.news-carts h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.choose-text {
+    padding: 30px 10px 30px 10px;
+    text-align: center;
+}
+.grid-section-part-1 {
+    padding: 10% 10px 35% 10px;
+    flex-basis: 100%;
+    text-align: center;
+}
+.grid-section-part-1 p {
+    margin-top: 0px;
+}
 
 
 .meal-section {
