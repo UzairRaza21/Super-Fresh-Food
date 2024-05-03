@@ -499,6 +499,12 @@ img.vert-move {
 /* ------------------------------------------------------------------------------------------------------------------------------ */
 .wrapper{
     margin: 0 3% 0 3%;
+
+}
+.business-bg{
+    background-image: url(../images/business-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .hero-section-business{
     margin: 8% auto;
@@ -523,6 +529,10 @@ img.vert-move {
 /* .content-section{
     margin: 10% 0;
 } */
+
+
+
+
 .hero-section-business{
     width: 85%;
     margin-left: 0;
