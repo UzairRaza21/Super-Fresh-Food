@@ -25,6 +25,7 @@ body{
     font-family: var(--bayon-font-family);
     font-weight: lighter;
 }
+
 .para-db-font{
     color: var(--dark-brown-font-color);
     font-size: var(--para-font-size-1200px);
@@ -143,6 +144,7 @@ body{
     width: 100%;
     background-color: white;
     z-index: 2;
+    top: 0;
 }
 /* Nav End */
 
@@ -494,6 +496,47 @@ img.vert-move {
     display: flex;
 }
 
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+.wrapper{
+    margin: 0 3% 0 3%;
+}
+.hero-section-business{
+    margin: 8% auto;
+    width: 100%;
+}
+
+.hero-section-business h1{
+    font-size: 200px;
+    color: var(--yellow-font-color);
+    font-family: var(--bayon-font-family);
+    font-weight: lighter;
+    line-height: 140px;
+}
+.hero-section-business span{
+    font-size: 170px;
+    color: var(--yellow-font-color);
+    font-family: var(--bayon-font-family);
+    font-weight: lighter;
+    line-height: 155px;
+}
+
+/* .content-section{
+    margin: 10% 0;
+} */
+.hero-section-business{
+    width: 85%;
+    margin-left: 0;
+}
+.content-section h1{
+   line-height: 150px ;
+   color: var(--brown-font-color);
+}
+.content-section p{
+    width: 65%;
+    margin: 3% 0;
+}
+
+
 
 
 
@@ -811,6 +854,47 @@ img.vert-move {
 
 
 
+.content-section{
+    text-align: center;
+}
+.hero-section-business{
+    width: 100%;
+    margin-left: auto;
+    text-align: center;
+}
+.content-section h1{
+   line-height: 100px ;
+   color: var(--brown-font-color);
+}
+.content-section p{
+    width: 100%;
+    margin: 2% 0;
+}
+
+.wrapper{
+    margin: 0 3% 0 3%;
+}
+.hero-section-business{
+    margin: 8% auto;
+    width: 80%;
+}
+
+.hero-section-business h1{
+    font-size: 130px;
+    color: var(--yellow-font-color);
+    font-family: var(--bayon-font-family);
+    font-weight: lighter;
+    line-height: 120px;
+}
+.hero-section-business span{
+    font-size: 110px;
+    color: var(--yellow-font-color);
+    font-family: var(--bayon-font-family);
+    font-weight: lighter;
+    line-height: 100px;
+}
+
+
 
 
 }
@@ -849,6 +933,34 @@ img.vert-move {
     .no-section{
         flex-direction: column;
     }
+
+
+    
+
+
+.content-section h1{
+   line-height: 80px ;
+}
+.content-section p{
+    width: 100%;
+    margin: 2% 0;
+}
+
+
+.hero-section-business{
+    margin: 6% auto;
+    width: 80%;
+}
+
+.hero-section-business h1{
+    font-size: 100px;
+    line-height: 80px;
+}
+.hero-section-business span{
+    font-size: 90px;
+    line-height: 80px;
+}
+
 
 
 
@@ -954,6 +1066,36 @@ img.vert-move {
 
 
 
+.content-section h1{
+    line-height: 40px ;
+    margin: 20px auto;
+ }
+ .content-section p{
+     width: 100%;
+     margin: 2% 0;
+ }
+ 
+ 
+ .hero-section-business{
+     margin: 6% auto;
+     width: 80%;
+ }
+ 
+ .hero-section-business h1{
+     font-size: 70px;
+     line-height: 60px;
+ }
+ .hero-section-business span{
+     font-size: 60px;
+     line-height: 40px;
+ }
+ 
+ 
+ 
+ 
+
+
+
 }
 
 @media screen and (max-width:375px){
@@ -963,8 +1105,29 @@ img.vert-move {
         line-height: 120px;
     }
 
+    
+
+ 
+ .hero-section-business h1{
+     font-size: 60px;
+     line-height: 50px;
+ }
+ .hero-section-business span{
+     font-size: 55px;
+     line-height: 30px;
+ }
+
 }
 
 @media screen and (max-width: 320px){
+
+    .hero-section-business h1{
+        font-size: 50px;
+        line-height: 40px;
+    }
+    .hero-section-business span{
+        font-size: 48px;
+        line-height: 40px;
+    }
 
 }
