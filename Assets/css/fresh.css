@@ -394,7 +394,7 @@ img.vert-move {
 .news-letters-carts{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    margin: 150px 150px 0px 150px  ;
+    margin: 150px 140px 0px 140px  ;
     gap: 40px;
 }
 .news-carts-img img{
@@ -433,7 +433,7 @@ img.vert-move {
 }
 
 .new-letters-carts{
-    margin-top: 30px;
+    margin-top: 100px;
     text-align: center;
 }
 
@@ -644,7 +644,7 @@ img.vert-move {
     }
     .meal-section {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
-        justify-content: centser;
+        justify-content: center;
     }
     .news-section {
         justify-content: space-between;
@@ -662,6 +662,9 @@ img.vert-move {
         font-weight: lighter;
         line-height: 75px;
     }
+
+
+
 
     .nav-inner {
         justify-content: center;
