@@ -485,12 +485,12 @@ img.vert-move {
 
 .footer-part-1{
     flex-basis: 25%;
-    align-self: center;
+    align-self: flex-start;
 }
 .footer-part-2{
     flex-basis: 15%;
 }
-.footer-part-1 img{
+.footer-logo img{
     width: 60%;
 }
 
@@ -508,6 +508,7 @@ img.vert-move {
 
 .footer-social-icons{
     display: flex;
+    gap: 10px;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
