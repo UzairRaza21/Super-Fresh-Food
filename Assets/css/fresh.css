@@ -448,7 +448,7 @@ img.vert-move {
     gap: 40px;
     background-color:  rgba(200, 176, 94, 1);
     margin-top: 100px;
-    padding: 80px 40px 0 40px;
+    padding: 80px 10% 0 10%;
 }
 .footer-main h1{
     color: white;
@@ -484,8 +484,9 @@ img.vert-move {
 
 
 .footer-part-1{
-    flex-basis: 25%;
+    flex-basis: 20%;
     align-self: flex-start;
+
 }
 .footer-part-2{
     flex-basis: 15%;
@@ -654,6 +655,9 @@ img.vert-move {
     .news-letters-carts {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         justify-content: center;
+    }
+    .footer-main{
+        padding: 80px 15% 0 15%;
     }
 
     .main-font{
@@ -892,9 +896,7 @@ img.vert-move {
 .footer-part-2{
     flex-basis: 40%;
 }
-.footer-part-1 img{
-    width: 60%;
-}
+
 
 .footer-part-3{
    flex-basis: 40%;
@@ -1111,7 +1113,7 @@ img.vert-move {
 
 
 
-.footer-part-1 img{
+.footer-logo img{
     width: 80%;
 }
 
