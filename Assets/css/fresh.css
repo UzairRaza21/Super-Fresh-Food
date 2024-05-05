@@ -262,7 +262,7 @@ img.vert-move {
     margin-top: 150px;
     justify-content: space-between;
     align-items: center;
-    margin-top: -47%;
+    margin-top: -48%;
     padding: 0 10%;
 
 }
@@ -281,6 +281,7 @@ img.vert-move {
 }
 .grid-section-part-1-text h1{
     color: white;
+    margin: 5% auto;
 }
 
 .grid-section-part-1 button{
@@ -341,7 +342,7 @@ img.vert-move {
     width: 80%;
     margin: 20px auto;
     font-size: var(--para-font-size-1200px);
-    line-height: 24px;
+    /* line-height: 24px; */
 }
 .meal-cart button{
     margin-bottom: 20px;
@@ -560,7 +561,7 @@ img.vert-move {
     margin: 3% 0;
 }
 
-/* -------------------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------COMPANY------------------------------------------------------------------ */
 
 .hero-section-company{
     background-image: url(../images/company/company-bg.png);
@@ -584,7 +585,6 @@ img.vert-move {
     font-family: var(--outfit-font-family);
 }
 
-
 .hero-section-company h1{
     font-size: 200px;
     line-height: 150px;
@@ -601,12 +601,10 @@ img.vert-move {
     padding: 3% 3% 3% 3%;
 }
 .company-mid-section-1 h1{
-    /* line-height: 90px; */
     width: 98%;
 }
 .company-mid-section-1 ul{
     list-style-position: inside;
-    line-height: 26px;
 }
 .company-mid-section-1 p{
     margin: 3% 0;
@@ -626,13 +624,12 @@ img.vert-move {
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
-    width: 100%;
     margin-top: 150px;
 }
 
 .company-approach-text{
     padding: 0 3% 0 3%;
-    margin-top: -45%;
+    margin-top: -46%;
     width: 50%;
 
 }
@@ -640,6 +637,33 @@ img.vert-move {
     margin: 10% auto;
     color: white;
 }
+
+.advantage-process-section{
+display: flex;
+margin-top: 360px;
+padding: 10% 3% 0 3%;
+background-image: url(../images/company/Background-6.png);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.advantage-process-part-1{
+    flex-basis: 45%;
+}
+.advantage-process-part-2{
+    flex-basis: 55%;
+}
+.advantage-process-part-2 img{
+    width: 100%;
+}
+.advantage-process-part-1 h2{
+    font-size: 55px;
+    line-height: 55px;
+}
+.advantage-process-part-1 p{
+    margin: 40px auto;
+}
+
 
 
 
@@ -669,6 +693,27 @@ img.vert-move {
         justify-content: space-between;
         padding: 0 15%;
     }
+
+    /* --------------------------------------------------COMPANY------------------------------------------------------------------ */
+.hero-section-company{
+    padding: 0 15% 0 15%;
+    }
+    .company-mid-section{
+        padding: 0 15% 0 15%;
+    }
+
+    .advantage-process-section{
+        padding: 0 15% 0 15%;
+    }
+    .company-approach-text {
+        padding: 0 15% 0 15%;
+        margin-top: -27%;
+    }
+
+    .company-approach-text h1 {
+        margin: 5% auto;
+ 
+    }
     .news-letters-carts {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         justify-content: center;
@@ -684,56 +729,17 @@ img.vert-move {
         font-weight: lighter;
         line-height: 75px;
     }
-
-
-
-
     .nav-inner {
         justify-content: center;
     }
     .nav-logo{
-        margin-right: 10%;
-        
+        margin-right: 10%;   
     }
 
 }
-@media screen and (max-width:1800px){
 
 
-}
-
-@media screen and (max-width: 1441px) {
-    .hero-section{
-        padding: 0 10%;
-    }
-    .choose-section {
-        padding: 0 10%;
-    }
-
-
-    .news-section {
-        justify-content: space-between;
-        padding: 0 10%;
-    }
-
-    .main-font{
-        color: var(--yellow-font-color);
-        font-size: var(--main-font-size-1200px);
-        font-family: var(--bayon-font-family);
-        font-weight: lighter;
-        line-height: 75px;
-    }
-
-
-
-}
-
-
-
-
-/* Above 1440px */
-@media  only screen and (max-width: 1440px ) {
-
+@media screen and (min-width: 1441px) {
     .nav-inner{
         display: flex;
         justify-content: center;
@@ -746,9 +752,42 @@ img.vert-move {
         margin-left: 0px;
     }
 
+    .hero-section{
+        padding: 0 10%;
+    }
+    .choose-section {
+        padding: 0 10%;
+    }
 
-    
+    .news-section {
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
+    /* --------------------------------------------------COMPANY------------------------------------------------------------------ */
+.hero-section-company{
+    padding: 0 10% 0 10%;
+    }
+    .company-mid-section{
+        padding: 0 10% 0 10%;
+    }
+
+    .company-approach-text {
+        padding: 0 10% 0 10%;
+        margin-top: -46%;
+        width: 50%;
+    }
+    .advantage-process-section{
+        padding: 0 10% 0 10%;
+    }
+
+
+
+
 }
+
+
+
 
 
 
@@ -817,7 +856,7 @@ img.vert-move {
         height: auto;
         align-items: center;
         justify-content: center;
-        margin-top: -106%;
+        margin-top: -76%;
     }
     .grid-section-part-1{
         flex-basis: 100%;
@@ -973,23 +1012,81 @@ img.vert-move {
     line-height: 100px;
 }
 
+
+/* --------------------------------------------------------------Company--------------------------------------------------------- */
+.hero-section-company{
+    height: 600px;
+}
+
+.hero-company-text ul{
+    font-size: 35px;
+}
+
+.hero-section-company h1{
+    font-size: 160px;
+    line-height: 140px;
+}
+
+.company-mid-section{
+    flex-direction: column;
+    margin-top: 100px;
+}
+.company-mid-section-1{
+    flex-basis: 100%;
+    padding: 3% 3% 3% 3%;
+}
+.company-mid-section-1 h1{
+    width: auto;
+}
+
+.company-mid-section-1 p{
+    margin: 3% 0;
+}
+
+.company-mid-section-2{
+    flex-basis: 100%;
+}
+.company-mid-section-2 img{
+    width: 50%;
+    margin: 0 0% 0 25%;
+}
+
 .company-approach-section{
-    height: 500px;
-    width: 100%;
+    height: 600px;
+    margin-top: 100px;
 }
 
 .company-approach-text{
     padding: 0 3% 0 3%;
-    margin-top: -40%;
+    margin-top: -48%;
     width: auto;
     text-align: center;
-
 }
 .company-approach-text h1{
     margin: 5% auto;
 }
 
+.advantage-process-section{
+flex-direction: column;
+margin-top: 300px;
+padding: 10% 3% 0 3%;
 
+}
+.advantage-process-part-1{
+    flex-basis: 100%;
+    text-align: center;
+}
+.advantage-process-part-2{
+    flex-basis: 100%;
+}
+
+.advantage-process-part-1 h2{
+    font-size: 45px;
+    line-height: 45px;
+}
+.advantage-process-part-1 p{
+    margin: 30px auto;
+}
 
 
 
@@ -1075,6 +1172,36 @@ img.vert-move {
 .company-approach-text h1{
     margin: 5% auto;
 }
+
+
+/* --------------------------------------------------------------Company--------------------------------------------------------- */
+
+
+
+.company-approach-section{
+    height: 500px;
+    margin-top: 100px;
+}
+
+.company-approach-text{
+    margin-top: -51%;
+}
+.company-approach-text h1{
+    margin: 5% auto;
+}
+
+.advantage-process-section{
+margin-top: 250px;
+}
+
+.advantage-process-part-1 h2{
+    font-size: 40px;
+    line-height: 40px;
+}
+.advantage-process-part-1 p{
+    margin: 28px auto;
+}
+
 
 
 
@@ -1212,6 +1339,49 @@ img.vert-move {
      line-height: 40px;
  }
  
+
+ 
+/* --------------------------------------------------------------Company--------------------------------------------------------- */
+.hero-section-company{
+    height: 80vh;
+}
+
+.hero-company-text ul{
+    font-size: 25px;
+}
+
+.hero-section-company h1{
+    font-size: 100px;
+    line-height: 80px;
+}
+
+.company-mid-section{
+    margin-top: 60px;
+}
+
+.company-mid-section-2 img{
+    width: 90%;
+    margin: 0 5% 0 5%;
+}
+
+.company-approach-text{
+    margin-top: -88%;
+}
+.company-approach-text h1{
+    margin: 5% auto;
+}
+
+.advantage-process-section{
+margin-top: 200px;
+}
+
+.advantage-process-part-1 h2{
+    font-size: 40px;
+    line-height: 40px;
+}
+
+
+
  
  
  
@@ -1249,6 +1419,43 @@ img.vert-move {
      line-height: 30px;
  }
 
+
+ 
+/* --------------------------------------------------------------Company--------------------------------------------------------- */
+.hero-section-company{
+    height: 80vh;
+}
+
+.hero-company-text ul{
+    font-size: 22px;
+}
+
+.hero-section-company h1{
+    font-size: 80px;
+    line-height: 60px;
+}
+
+.company-approach-section{
+    height: 500px;
+}
+
+.company-approach-text{
+    margin-top: -98%;
+}
+
+.advantage-process-section{
+margin-top: 150px;
+}
+
+.advantage-process-part-1 h2{
+    font-size: 30px;
+    line-height: 30px;
+}
+.advantage-process-part-1 p{
+    margin: 25px auto;
+}
+
+
 }
 
 @media screen and (max-width: 320px){
@@ -1268,5 +1475,17 @@ img.vert-move {
     .grid-section-part-1 button {
         margin-top: 10px;
     }
+
+     
+/* --------------------------------------------------------------Company--------------------------------------------------------- */
+
+.hero-company-text ul{
+    font-size: 18px;
+}
+
+.company-approach-text{
+    margin-top: -112%;
+}
+
 
 }
