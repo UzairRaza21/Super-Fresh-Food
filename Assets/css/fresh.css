@@ -89,7 +89,8 @@ body{
     display: flex;
     height: 130px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding: 0 3% 0 3%;
 }
 
 .nav-links ul{
@@ -161,6 +162,7 @@ body{
     justify-content: center;
     background-size: cover;
     height: 900px;
+    padding: 0 3% 0 3%;
 }
 
 
@@ -223,6 +225,7 @@ img.vert-move {
     align-items: center;
     justify-content: center;
     margin: 150px 0 0px 0;
+    padding: 0 3% 0 3%
 }
 .choose-text{
     padding: 0 10px 0 0px;
@@ -262,8 +265,8 @@ img.vert-move {
     margin-top: 150px;
     justify-content: space-between;
     align-items: center;
-    margin-top: -48%;
-    padding: 0 10%;
+    margin-top: -52%;
+    padding: 0 3%;
 
 }
 .grid-section-part-1{
@@ -331,7 +334,7 @@ img.vert-move {
     font-family: var(--bayon-font-family);
     font-size: var(--main-font-size-1200px);
     line-height: 80px;
-    /* width: 90%; */
+    width: 90%;
     margin: 20px auto;
     font-weight: lighter;
 
@@ -453,7 +456,7 @@ img.vert-move {
     gap: 40px;
     background-color:  rgba(200, 176, 94, 1);
     margin-top: 100px;
-    padding: 80px 10% 0 10%;
+    padding: 80px 3% 0 3%;
 }
 .footer-main h1{
     color: white;
@@ -681,13 +684,15 @@ background-size: cover;
     .choose-section {
         padding: 0 15%;
     }
+
     .mission-section {
-        padding: 0 15%;
-        margin-top: -33.5%;
+        padding: 0 10%;
+        margin-top: -36.5%;
     }
     .meal-section {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         justify-content: center;
+        gap: 115px;
     }
     .news-section {
         justify-content: space-between;
@@ -717,9 +722,10 @@ background-size: cover;
     .news-letters-carts {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         justify-content: center;
+        gap: 60px;
     }
     .footer-main{
-        padding: 80px 15% 0 15%;
+        padding: 80px 10% 0 10%;
     }
 
     .main-font{
@@ -730,7 +736,8 @@ background-size: cover;
         line-height: 75px;
     }
     .nav-inner {
-        justify-content: center;
+        justify-content: space-between;
+        padding: 0 15%;
     }
     .nav-logo{
         margin-right: 10%;   
@@ -742,7 +749,8 @@ background-size: cover;
 @media screen and (min-width: 1441px) {
     .nav-inner{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        padding: 0 10%;
     }
     .nav-links{
         margin-left: 3%;
@@ -758,11 +766,19 @@ background-size: cover;
     .choose-section {
         padding: 0 10%;
     }
+    .mission-section {
+        margin-top: -47%;
+        padding: 0 10%;
+    }
 
     .news-section {
         justify-content: space-between;
         padding: 0 10%;
     }
+    .footer-main {
+        padding: 80px 10% 0 10%;
+    }
+
 
     /* --------------------------------------------------COMPANY------------------------------------------------------------------ */
 .hero-section-company{
@@ -808,6 +824,17 @@ background-size: cover;
         width: 100%;
         z-index: 10;
     } 
+
+    
+    .hero-section {
+        padding: 0 10px;
+    }
+    .choose-section {
+        padding: 0 10px;
+    }
+
+
+
 
 
 }
