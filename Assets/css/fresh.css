@@ -24,17 +24,20 @@ body{
     font-size: var(--main-font-size-1200px);
     font-family: var(--bayon-font-family);
     font-weight: lighter;
+    line-height: 90px;
 }
 
 .para-db-font{
     color: var(--dark-brown-font-color);
     font-size: var(--para-font-size-1200px);
     font-family: var(--outfit-font-family);
+    line-height: 26px;
 }
 .para-b-font{
     color: var(--brown-font-color);
     font-size: var(--para-font-size-1200px);
     font-family: var(--outfit-font-family);
+    line-height: 26px;
 }
 
 
@@ -580,9 +583,7 @@ img.vert-move {
     font-size: 40px;
     font-family: var(--outfit-font-family);
 }
-/* li::marker{
-    font-size: 50px;
-} */
+
 
 .hero-section-company h1{
     font-size: 200px;
@@ -600,7 +601,7 @@ img.vert-move {
     padding: 3% 3% 3% 3%;
 }
 .company-mid-section-1 h1{
-    line-height: 90px;
+    /* line-height: 90px; */
     width: 98%;
 }
 .company-mid-section-1 ul{
@@ -624,6 +625,20 @@ img.vert-move {
     background-image: url(../images/company/Background-1.png);
     background-size: cover;
     background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    margin-top: 150px;
+}
+
+.company-approach-text{
+    padding: 0 3% 0 3%;
+    margin-top: -45%;
+    width: 50%;
+
+}
+.company-approach-text h1{
+    margin: 10% auto;
+    color: white;
 }
 
 
@@ -763,16 +778,19 @@ img.vert-move {
         color: var(--yellow-font-color);
         font-size: var(--main-font-size-1024px);
         font-family: var(--bayon-font-family);
+        line-height:60px ;
     }
     .para-db-font{
         color: var(--para-font-size-1024px);
         font-size: var(--dark-brown-font-color);
         font-family: var(--outfit-font-family);
+        line-height: 20px;
     }
     .para-b-font{
         color: var(--brown-font-color);
         font-size: var(--para-font-size-1024px);
         font-family: var(--outfit-font-family);
+        line-height: 20px;
     }
     
     .hero-section {
@@ -955,6 +973,25 @@ img.vert-move {
     line-height: 100px;
 }
 
+.company-approach-section{
+    height: 500px;
+    width: 100%;
+}
+
+.company-approach-text{
+    padding: 0 3% 0 3%;
+    margin-top: -40%;
+    width: auto;
+    text-align: center;
+
+}
+.company-approach-text h1{
+    margin: 5% auto;
+}
+
+
+
+
 
 
 
@@ -965,19 +1002,20 @@ img.vert-move {
         color: var(--yellow-font-color);
         font-size: var(--main-font-size-768px);
         font-family: var(--bayon-font-family);
+        line-height: 40px;
     }
     .para-db-font{
         color: var(--para-font-size-768px);
         font-size: var(--dark-brown-font-color);
         font-family: var(--outfit-font-family);
+        line-height: 16px;
     }
     .para-b-font{
         color: var(--brown-font-color);
         font-size: var(--para-font-size-768px);
         font-family: var(--outfit-font-family);
+        line-height: 16px;
     }
-
-
 
     .hero-section-text {
         text-align: center;
@@ -995,12 +1033,11 @@ img.vert-move {
         flex-direction: column;
     }
     .mission-section {
-        margin-top: -220%;
+        margin-top: -100%;
     }
 
 
     
-
 
 .content-section h1{
    line-height: 80px ;
@@ -1009,7 +1046,6 @@ img.vert-move {
     width: 100%;
     margin: 2% 0;
 }
-
 
 .hero-section-business{
     margin: 6% auto;
@@ -1025,6 +1061,22 @@ img.vert-move {
     line-height: 80px;
 }
 
+.company-approach-section{
+    height: 500px;
+    width:100%;
+}
+
+.company-approach-text{
+
+    margin-top: -55%;
+    text-align: center;
+
+}
+.company-approach-text h1{
+    margin: 5% auto;
+}
+
+
 
 
 
@@ -1035,6 +1087,9 @@ img.vert-move {
     .hero-title {
         font-size: 140px;
         line-height: 50px;
+    }
+    .mission-section {
+        margin-top: -210%;
     }
 
 .hero-section-text {
@@ -1177,7 +1232,7 @@ img.vert-move {
     }
 
     .mission-section {
-        margin-top: -250%;
+        margin-top: -235%;
     }
     .grid-section-part-1 button {
         margin-top: 30px;
@@ -1208,7 +1263,7 @@ img.vert-move {
     }
 
     .mission-section {
-        margin-top: -290%;
+        margin-top: -275%;
     }
     .grid-section-part-1 button {
         margin-top: 10px;
