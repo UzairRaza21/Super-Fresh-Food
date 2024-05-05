@@ -1022,7 +1022,10 @@ img.vert-move {
 
 
 @media  screen and (max-width: 425px) {
-
+    .hero-title {
+        font-size: 140px;
+        line-height: 50px;
+    }
 
 .hero-section-text {
     text-align: center;
@@ -1154,6 +1157,10 @@ img.vert-move {
 
 @media screen and (max-width:375px){
 
+    .hero-title {
+        font-size: 110px;
+        line-height: 50px;
+    }
     .hero-section-text h1 {
         font-size: 120px;
         line-height: 120px;
