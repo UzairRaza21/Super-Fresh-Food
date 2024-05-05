@@ -632,7 +632,7 @@ img.vert-move {
 
 .company-approach-text{
     padding: 0 3% 0 3%;
-    margin-top: -46%;
+    margin-top: -46.5%;
     width: 50%;
 
 }
@@ -643,7 +643,7 @@ img.vert-move {
 
 .advantage-process-section{
 display: flex;
-margin-top: 360px;
+margin-top: 200px;
 padding: 10% 3% 0 3%;
 background-image: url(../images/company/Background-6.png);
 background-repeat: no-repeat;
@@ -712,13 +712,14 @@ background-size: cover;
     }
     .company-approach-text {
         padding: 0 15% 0 15%;
-        margin-top: -27%;
+        margin-top: -26.5%;
     }
 
     .company-approach-text h1 {
         margin: 5% auto;
- 
     }
+
+
     .news-letters-carts {
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
         justify-content: center;
@@ -793,6 +794,8 @@ background-size: cover;
         margin-top: -46%;
         width: 50%;
     }
+
+
     .advantage-process-section{
         padding: 0 10% 0 10%;
     }
@@ -1095,7 +1098,7 @@ background-size: cover;
 
 .advantage-process-section{
 flex-direction: column;
-margin-top: 300px;
+margin-top: 270px;
 padding: 10% 3% 0 3%;
 
 }
