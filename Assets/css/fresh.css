@@ -4,7 +4,10 @@
 }
 body{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 :root{
     --yellow-font-color:  rgba(226, 204, 0, 1);
     --brown-font-color: rgba(200, 176, 94, 1);
@@ -18,6 +21,12 @@ body{
     --main-font-size-768px: 40px;
     --para-font-size-768px: 16px;
 }
+
+.wrapper{
+    padding: 0 3% 0 3%;
+}
+
+
 
 .main-font{
     color: var(--yellow-font-color);
@@ -95,7 +104,7 @@ body{
 
 .nav-links ul{
     display: flex;
-    gap: 50px;
+    gap: 30px;
     justify-content: center;
     align-items: center;
     height: 100px;
@@ -149,6 +158,11 @@ body{
     background-color: white;
     z-index: 2;
     top: 0;
+    padding: 0 3% 0 3%;
+}
+.nav-select{
+    width: 20px;
+    border: 0px;
 }
 /* Nav End */
 
@@ -522,10 +536,7 @@ img.vert-move {
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------ */
-.wrapper{
-    margin: 0 3% 0 3%;
 
-}
 .business-bg{
     background-image: url(../images/business-bg.png);
     background-repeat: no-repeat;
@@ -667,6 +678,332 @@ background-size: cover;
     margin: 40px auto;
 }
 
+/* ---------------------------------------------------------------Brand----------------------------------------------- */
+
+.hero-brand{
+    background-size: cover;
+    background-image: url(../images/brand/hero-brand.png);
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+.hero-brand-text{
+    font-family: var(--bayon-font-family);
+    color: white;
+    
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.hero-brand-text h1{
+    font-size: 190px;
+    line-height: 190px;
+    font-weight: lighter;
+}
+.hero-brand-text ul{
+    list-style-position: inside;
+}
+.hero-brand-text h2{
+    font-family: var(--outfit-font-family);
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: 500;
+}
+
+.chef-meal-section{
+    background-image: url(../images/brand/business-bg.png);
+    margin-top: 150px;
+}
+.chef-meal-inner {
+    display: flex;
+}
+.chef-meal-part-1{
+    flex-basis: 50%;
+}
+.chef-meal-part-1 ul{
+    list-style-position: inside;
+    font-family: var(--outfit-font-family);
+    font-size: 50px;
+    color: var(--dark-brown-font-color);
+    margin: 20px auto;
+}
+.chef-meal-part-1 button{
+    margin: 40px auto;
+}
+.chef-meal-part-2{
+    flex-basis: 50%;
+}
+/* Brands Slider */
+.chef-meal-inner-slider .slider {
+    width: 680px;
+    margin: -395px auto auto -55px;
+    text-align: center;
+    padding: 0px;
+
+}
+/* .slider .parent-slide {
+    padding: 15px;
+} */
+.chef-meal-inner-slider .slider img {
+    display: block;
+    margin: auto;
+}
+
+.chef-meal-arrow{
+    margin: -100px auto auto auto;
+}
+.chef-meal-part-2 button{
+    margin: -150px auto auto 215px;
+    float: left;
+}
+
+.chef-meal-part-2 h3{
+    position: relative;
+    width: 200px;
+    top: -160px;
+    left: 205px;
+    font-family: var(--outfit-font-family);
+    font-size: 30px;
+    color: var(--dark-brown-font-color);
+}
+
+.key-advantage-section{
+    display: flex;
+    margin-top: 150px;
+}
+.key-advantage-part-1{
+    flex-basis: 50%;
+    padding: 0 0 0 3%;
+}
+.key-advantage-part-2{
+    flex-basis: 50%;
+}
+.key-advantage-part-2 img{
+    width: 100%;
+}
+.key-advantage-list{
+    color: var(--dark-brown-font-color);
+    font-family: var(--outfit-font-family);
+    font-size: var(--para-font-size-1200px);
+    margin: 40px 5% 40px 5%;
+}
+
+.save-time-section{
+    background-image: url(../images/brand/Background-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+.save-time-inner{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.save-time-part-1{
+    flex-basis: 50%;
+}
+.save-time-part-1 p{
+    margin: 60px auto;
+}
+.save-time-part-2{
+    flex-basis: 50%;
+}
+.save-time-part-2 img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.menu-sneak-peak{
+    background-image: url(../images/brand/Background-4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.menu-sneak-inner{
+padding-top: 100px;
+}
+.menu-sneak-inner p{
+    margin: 30px auto;
+}
+.flex{
+    display: flex;
+}
+.flex-part-1{
+    flex-basis: 50%;
+}
+.flex-part-2{
+    flex-basis: 50%;
+}
+
+
+/* Slider */
+
+.slider-main-part{
+    max-width: 80%;
+    margin: 3% auto;
+  }
+  /* Default slide */
+  .center-slider .slick-slide{
+    /* background-color: #b32532; */
+    /* color: #FFF; */
+    /* width: 300px !important; */
+    height: 380px;
+    /* margin: 0 0px 0 0px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: scale(1.0); */
+    transition: all 0.4s ease-in-out;
+  }
+  .center-slider .slick-slide,
+  .center-slider .slick-slide[aria-hidden="true"]:not(.slick-cloned) ~ .slick-cloned[aria-hidden="true"] {
+    transform: scale(0.9, 0.9);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  
+  .slick-next, .slick-prev{
+    z-index: 5;
+  }
+  .slick-next{
+    right: 15px;
+  }
+  .slick-prev{
+    left: 15px;
+  }
+  .slick-next:before, .slick-prev:before{
+    color: black !important;
+    font-size: 36px !important;
+  }
+
+/* Slider End */
+
+  .how-it-works{
+    background-image: url(../images/brand/Rectangle-6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+  }
+  .how-it-works-inner{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .how-it-works-inner-part-1 h1{
+    color: white;
+  }
+  .how-it-works-inner-part-1 li{
+    margin: 20px auto;
+    list-style-position: inside;
+    color: rgb(45, 7, 7);
+    width: 90%;
+  }
+
+  .how-it-works-inner-part-1 p{
+    margin: 40px auto;
+    font-weight: 600;
+    width: 90%;
+  }
+
+
+  .plan-price{
+    background-image: url(../images/brand/Background-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+  }
+
+  .plan-price-inner{
+    padding-top: 100px;
+  }
+  .plan-price-carts{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 100px;
+  }
+  .price-carts{
+    border: 3px dotted var(--dark-brown-font-color);
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px 30px 20px;
+    text-align: center;
+    gap: 30px;
+    background-color: white;
+  }
+
+  .price-carts h1{
+    color: var(--yellow-font-color);
+    font-family: var(--bayon-font-family);
+    font-size: 55px;
+  }
+  .price-carts h3{
+    font-weight: 300;
+    font-size: 40px;
+    font-family: var(--bayon-font-family);
+    color: var(--brown-font-color);
+  }
+  .price-carts h4{
+    font-family: var(--outfit-font-family);
+    font-weight: 900;
+    font-size: 25px;
+    color: var(--dark-brown-font-color);
+  }
+  .price-carts p{
+    width: 90%;
+  }
+
+  .plan-price-bottom-bg{
+    background-image: url(../images/brand/Background\(2\).png);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: -100px;
+  }
+  .plan-price-bottom-text{
+    padding-top: 180px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .plan-price-bottom-text p{
+    color: rgb(62, 8, 8);
+  }
+  .plan-price-bottom-text h2{
+    font-weight: 700;
+    color: rgb(62, 8, 8);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -678,6 +1015,9 @@ background-size: cover;
 
 
 @media screen and (min-width: 1920px) {
+    .wrapper{
+        padding: 0 15% 0 15%;
+    }
     .hero-section{
         padding: 0 15%;
     }
@@ -748,6 +1088,9 @@ background-size: cover;
 
 
 @media screen and (min-width: 1441px) {
+    .wrapper{
+        padding: 0 10% 0 10%;
+    }
     .nav-inner{
         display: flex;
         justify-content: space-between;
@@ -860,6 +1203,21 @@ background-size: cover;
         font-size: var(--para-font-size-1024px);
         font-family: var(--outfit-font-family);
         line-height: 20px;
+    }
+
+    .wrapper{
+        padding: 0 10px 0 10px;
+    }
+
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-part-1{
+        flex-basis: 100%;
+    }
+    .flex-part-2{
+        flex-basis: 100%;
     }
     
     .hero-section {
