@@ -850,7 +850,7 @@ padding-top: 100px;
     /* background-color: #b32532; */
     /* color: #FFF; */
     /* width: 300px !important; */
-    height: 380px;
+    height: auto;
     /* margin: 0 0px 0 0px; */
     display: flex;
     align-items: center;
@@ -1476,6 +1476,71 @@ padding: 10% 3% 0 3%;
     margin: 30px auto;
 }
 
+/* ------------------------------------------------------Brand------------------------------------------------------------ */
+.chef-meal-section{
+    margin-top: 100px;
+}
+.chef-meal-inner {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.chef-meal-part-1{
+    flex-basis: 100%;
+    text-align: center;
+}
+.chef-meal-part-2{
+    flex-basis: 100%;
+}
+.chef-meal-part-1 ul{
+    font-size: 45px;
+    margin: 15px auto;
+    text-align: left;
+}
+.chef-meal-part-1 button{
+    margin: 40px auto;
+}
+
+.key-advantage-section{
+    flex-direction: column;
+    margin-top: 100px;
+}
+.key-advantage-part-1{
+    flex-basis:100%;
+    padding: 0 0 0 3%;
+}
+.key-advantage-part-2{
+    flex-basis: 100%;
+}
+
+.save-time-section{
+    height: 800px;
+    padding-top: 60px;
+}
+.save-time-inner{
+    flex-direction: column;
+    align-items: center;
+
+}
+.save-time-part-1{
+    flex-basis: 100%;
+}
+.save-time-part-1 p{
+    margin: 50px auto;
+}
+.save-time-part-2{
+    flex-basis: 100%;
+}
+.save-time-part-2 img{
+    width: 80%;
+    margin-left: 10%;
+}
+.menu-sneak-peak{
+    height: 800px;
+}
+.menu-sneak-inner{
+padding-top: 100px;
+}
 
 
 

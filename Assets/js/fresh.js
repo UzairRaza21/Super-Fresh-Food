@@ -44,6 +44,26 @@ $(document).ready(function(){
     centerPadding: '0px',
     infinite: true,
     autoplaySpeed: 5000,
-    autoplay: true
+    autoplay: true,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+        }
+      },
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 767,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ]
   });
 });
