@@ -222,7 +222,7 @@
         line-height: 120px;
         text-align: center;
     }
-
+    
     .hero-brand-text ul{
         font-size: 22px;
     }
@@ -243,6 +243,10 @@
 }
 
 @media screen and (max-width: 375px) {  
+    .hero-brand-text h1{
+        line-height: 120px;
+        font-size: 100px;
+    }
     .team-member-part-2 h1{
         font-size: 50px;
         line-height: 45px;
