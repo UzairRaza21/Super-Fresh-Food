@@ -17,7 +17,7 @@ body{
     --main-font-size-1200px: 100px;
     --para-font-size-1200px: 26px;
     --main-font-size-1024px: 70px;
-    --para-font-size-1024px: 24px;
+    --para-font-size-1024px: 26px;
     --main-font-size-768px: 60px;
     --para-font-size-768px: 22px;
     --main-font-size-425px: 50px;
@@ -900,7 +900,7 @@ padding-top: 100px;
   .how-it-works-inner-part-1 li{
     margin: 20px auto;
     list-style-position: inside;
-    color: rgb(45, 7, 7);
+    color: rgba(73, 61, 18, 1);
     width: 90%;
   }
 
@@ -977,11 +977,12 @@ padding-top: 100px;
   }
 
   .plan-price-bottom-text p{
-    color: rgb(62, 8, 8);
+    color: rgba(73, 61, 18, 1);
   }
   .plan-price-bottom-text h2{
     font-weight: 700;
-    color: rgb(62, 8, 8);
+    color: rgba(73, 61, 18, 1);
+    ;
   }
   
 
