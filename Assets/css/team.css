@@ -260,9 +260,11 @@
 }
 
 @media screen and (max-width:320px) {
-    .hero-brand-text h1{
-        line-height: 100px;
+
+    .hero-brand-text h1 {
+        line-height: 70px;
         text-align: center;
+        font-size: 80px;
     }
 
     .hero-brand-text ul{
