@@ -14,12 +14,14 @@ body{
     --dark-brown-font-color: rgba(121, 113, 86, 1);
     --bayon-font-family: "Bayon";
     --outfit-font-family: "Outfit";
-    --main-font-size-1200px: 90px;
+    --main-font-size-1200px: 100px;
     --para-font-size-1200px: 26px;
-    --main-font-size-1024px: 60px;
-    --para-font-size-1024px: 20px;
-    --main-font-size-768px: 40px;
-    --para-font-size-768px: 16px;
+    --main-font-size-1024px: 70px;
+    --para-font-size-1024px: 24px;
+    --main-font-size-768px: 60px;
+    --para-font-size-768px: 22px;
+    --main-font-size-425px: 50px;
+    --para-font-size-425px: 20px;
 }
 
 .wrapper{
@@ -1716,6 +1718,19 @@ margin-top: 250px;
     margin: 28px auto;
 }
 
+/* -----------------------------------------------------Brand---------------------------------------------------------------------- */
+.hero-brand-text h1 {
+    font-size: 120px;
+    line-height: 65px;
+}
+.hero-brand-text ul {
+    font-size: 35px;
+}
+
+.chef-meal-part-1 h1 {
+    line-height: 60px;
+}
+
 
 
 
@@ -1725,6 +1740,27 @@ margin-top: 250px;
 
 
 @media  screen and (max-width: 425px) {
+
+    .main-font{
+        color: var(--yellow-font-color);
+        font-size: var(--main-font-size-425px);
+        font-family: var(--bayon-font-family);
+        font-weight: lighter;
+        line-height: 40px;
+    }
+    
+    .para-db-font{
+        color: var(--dark-brown-font-color);
+        font-size: var(--para-font-size-425px);
+        font-family: var(--outfit-font-family);
+        line-height: 18px;
+    }
+    .para-b-font{
+        color: var(--brown-font-color);
+        font-size: var(--para-font-size-425px);
+        font-family: var(--outfit-font-family);
+        line-height: 18px;
+    }
     .hero-title {
         font-size: 140px;
         line-height: 50px;
@@ -1894,6 +1930,45 @@ margin-top: 200px;
     line-height: 40px;
 }
 
+.chef-meal-slider-outer{
+    width: 80%;
+    position: relative;
+    top: 10px;
+    left: 45px;
+}
+
+
+/* Brands Slider */
+.chef-meal-inner-slider .slider {
+    width: 450px;
+    margin: -235px auto auto auto;
+    text-align: center;
+    padding: 0px;
+}
+
+
+
+.chef-meal-arrow{
+    margin: -15px auto auto 52px;
+    width: 30%;
+}
+.chef-meal-part-2 button{
+    margin:-135px auto auto 190px;
+    float: left;
+}
+
+.chef-meal-part-2 h3{
+    position: relative;
+    width: 200px;
+    top: -150px;
+    left: 190px;
+    font-size: 30px;
+}
+
+.chef-meal-part-1 ul{
+    font-size: 30px;
+}
+
 
 
  
@@ -1969,6 +2044,42 @@ margin-top: 150px;
     margin: 25px auto;
 }
 
+.chef-meal-slider-outer{
+    width: 76%;
+    position: relative;
+    top: 10px;
+    left: 48px;
+}
+
+
+/* Brands Slider */
+.chef-meal-inner-slider .slider {
+    width: 420px;
+    margin: -208px auto auto auto;
+}
+.slide{
+    width: 280px;
+}
+
+
+
+.chef-meal-arrow{
+    margin: -20px auto auto 60px;
+    width: 20%;
+}
+.chef-meal-part-2 button{
+    margin: -115px auto auto 148px;
+    float: left;
+}
+
+.chef-meal-part-2 h3{
+    position: relative;
+    width: 180px;
+    top: -115px;
+    left: 172px;
+    font-size: 22px;
+}
+
 
 }
 
@@ -2000,6 +2111,27 @@ margin-top: 150px;
 .company-approach-text{
     margin-top: -112%;
 }
+
+/* ------------------------------------------------------Brand-------------------------------------------------------------- */
+.hero-brand-text h1 {
+    font-size: 105px;
+    line-height: 30px;
+}
+
+.chef-meal-inner-slider .slider {
+    width: 350px;
+    margin: -168px auto auto auto;
+}
+.chef-meal-part-2 button {
+    margin: -95px auto auto 138px;
+    float: left;
+}
+
+.chef-meal-part-2 h3 {
+    top: -96px;
+    left: 158px;
+}
+
 
 
 }
