@@ -29,7 +29,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 80px;
-    margin-top: 100px;
+    margin-top: 10%;
     height: 800px;
 }
 #executive-cart-1{
@@ -73,7 +73,7 @@
 
 
 .team-member{
-    margin-top: 150px;
+    margin-top: 20%;
 }
 .team-member-inner h1{
     color: var(--dark-brown-font-color);
@@ -122,6 +122,14 @@
     ;
 }
 
+
+#executive-cart-3{
+    margin-top: 18%;
+}
+
+.executive-part-3-text{
+    margin-bottom: 8%;
+}
 
 
 @media screen and (max-width:1024px) {
