@@ -1721,7 +1721,7 @@ margin-top: 250px;
 /* -----------------------------------------------------Brand---------------------------------------------------------------------- */
 .hero-brand-text h1 {
     font-size: 120px;
-    line-height: 65px;
+    line-height: 100px;
 }
 .hero-brand-text ul {
     font-size: 35px;
@@ -1768,6 +1768,7 @@ margin-top: 250px;
     .mission-section {
         margin-top: -210%;
     }
+
 
 .hero-section-text {
     text-align: center;
