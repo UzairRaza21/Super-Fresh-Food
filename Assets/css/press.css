@@ -47,6 +47,14 @@
     margin: 3% auto;
 }
 
+.para-bold-db{
+    font-family:var(--outfit-font-family);
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--dark-brown-font-color);
+    font-weight: 700;
+}
+
 .press-cart h1{
     color: var(--dark-brown-font-color);
     font-family: var(--outfit-font-family);
