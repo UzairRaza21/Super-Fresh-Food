@@ -172,22 +172,28 @@ body{
 }
 
 /*************************************************/
+.angle-down{
+    padding: 10px ;
+}
 .inside_items{
     display: none;
     position: absolute;
-    top: 70px;
-    left: 62%;
-    
-  }
+    top: 78px;
+    left: 48%;
+    z-index: 4;
+}
   .inside_items ul{
     display: block;
+    
   }
   .inside_items li{
-    width: 200px;
+    width: 220px;
     height: 50px;
     line-height: 50px;
     padding: 0 30px;
     background-color: white;
+    transition: all 500ms;
+    border-top: 1px solid grey;
   }
   .inside_items li:hover{
     background-color: rgba(200, 176, 94, 1);
@@ -195,10 +201,12 @@ body{
   li:hover .inside_items{
     display: block;
   }
-  a{
+  .inside_items a{
       text-decoration: none;
-      color:black;
       font-size: 25px;
+  }
+  .last-nav-list-item{
+    border-bottom: 3px solid var(--yellow-font-color);
   }
 
   /* -------------------------------------------- */
@@ -206,8 +214,9 @@ body{
   .inside_items-2{
     display: none;
     position: absolute;
-    top: 70px;
-    left: 72%;
+    top: 78px;
+    left: 67%;
+    z-index: 4;
     
   }
   .inside_items-2 ul{
@@ -219,6 +228,9 @@ body{
     line-height: 50px;
     padding: 0 30px;
     background-color: white;
+    transition: all 500ms;
+    border-top: 1px solid grey;
+    border-bottom: 3px solid var(--yellow-font-color);
   }
   .inside_items-2 li:hover{
     background-color: rgba(200, 176, 94, 1);
@@ -226,9 +238,8 @@ body{
   li:hover .inside_items-2{
     display: block;
   }
-  a{
+  .inside_items-2 a{
       text-decoration: none;
-      color:black;
       font-size: 25px;
   }
 
