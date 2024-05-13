@@ -101,7 +101,7 @@
     color: rgba(106, 186, 197, 1);
     font-family: var(--bayon-font-family);
     font-size: 70px;
-    line-height: 20px;
+    line-height: 60px;
 }
 .team-member-part-2 h2{
     color: var(--dark-brown-font-color);

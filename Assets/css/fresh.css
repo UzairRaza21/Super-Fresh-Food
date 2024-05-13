@@ -1199,6 +1199,18 @@ padding-top: 100px;
         margin-right: 10%;   
     }
 
+    .hero-brand {
+        height: 100vh;
+    }
+
+    .menu-sneak-inner {
+        padding-top: 100px;
+    }
+
+    .plan-price-inner {
+        padding-top: 100px;
+    }
+
 }
 @media screen and (max-width: 1800px) {
     .mission-section {
@@ -1289,7 +1301,7 @@ padding-top: 100px;
 
     .company-approach-text {
         padding: 0 10% 0 10%;
-        margin-top: -50%;
+        margin-top: -53%;
         width: 50%;
     }
 
@@ -1298,6 +1310,9 @@ padding-top: 100px;
         padding: 0 10% 0 10%;
     }
 
+    .menu-sneak-inner {
+        padding-top: 100px;
+    }
 
 
 
