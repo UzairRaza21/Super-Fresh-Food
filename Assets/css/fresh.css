@@ -475,7 +475,7 @@ img.vert-move {
     color: var(--yellow-font-color);
     font-family: var(--bayon-font-family);
     font-size: var(--main-font-size-1200px);
-    width: 60%;
+    width: 70%;
     line-height: 100px;
     font-weight: lighter;
 }
@@ -1167,7 +1167,7 @@ padding-top: 100px;
     }
     .company-approach-text {
         padding: 0 15% 0 15%;
-        margin-top: -26.5%;
+        margin-top: -28.5%;
     }
 
     .company-approach-text h1 {
@@ -1181,7 +1181,7 @@ padding-top: 100px;
         gap: 60px;
     }
     .footer-main{
-        padding: 80px 10% 80px 10%;
+        padding: 80px 15% 80px 15%;
     }
 
     .main-font{
@@ -1289,7 +1289,7 @@ padding-top: 100px;
 
     .company-approach-text {
         padding: 0 10% 0 10%;
-        margin-top: -46%;
+        margin-top: -50%;
         width: 50%;
     }
 
@@ -1416,11 +1416,11 @@ padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     margin: 150px 80px 0 80px;
-    gap: 20px;
+    gap: 30px;
 
 }
 .meal-cart{
-    height: 300px;
+    height: 420px;
 }
 
 .meal-cart h1{
@@ -1579,6 +1579,7 @@ padding-top: 100px;
 }
 .company-mid-section-1 h1{
     width: auto;
+    line-height: 55px;
 }
 
 .company-mid-section-1 p{
@@ -1756,6 +1757,14 @@ padding-top: 100px;
   .price-carts p{
     width: 90%;
   }
+
+  .delicious {
+    height: 950px;
+}
+
+.stock-info {
+    height: 600px;
+}
 
 
 
@@ -1953,7 +1962,7 @@ margin-top: 250px;
     text-align: center;
 }
 .grid-section-part-1 {
-    padding: 10% 10px 35% 10px;
+    padding: 18% 10px 35% 10px;
     flex-basis: 100%;
     text-align: center;
 }
@@ -1965,7 +1974,7 @@ margin-top: 250px;
 .meal-section {
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     margin: 150px 10px 0 10px;
-    gap: 20px;
+    gap: 35px;
 }
 .meal-cart {
     height: 400px;
@@ -2029,7 +2038,7 @@ margin-top: 250px;
  
  .hero-section-business{
      margin: 6% auto;
-     width: 80%;
+     width: 100%;
  }
  
  .hero-section-business h1{
@@ -2071,6 +2080,9 @@ margin-top: 250px;
 }
 .company-approach-text h1{
     margin: 5% auto;
+}
+.company-mid-section-1 h1 {
+    line-height: 50px;
 }
 
 .advantage-process-section{
@@ -2151,6 +2163,13 @@ margin-top: 200px;
     }
     .grid-section-part-1 button {
         margin-top: 30px;
+    }
+
+    .meal-cart h1 {
+        width: 80%;
+    }
+    .meal-cart {
+        height: 460px;
     }
  
  .hero-section-business h1{
