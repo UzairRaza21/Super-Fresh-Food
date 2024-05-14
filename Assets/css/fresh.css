@@ -161,7 +161,7 @@ body{
 }
 .fixed{
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     z-index: 2;
     top: 0;
@@ -902,8 +902,7 @@ background-size: cover;
 .save-time-inner{
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 100%;
+    
 }
 .save-time-part-1{
     flex-basis: 50%;
@@ -917,6 +916,7 @@ background-size: cover;
 .save-time-part-2 img{
     width: 80%;
     margin-left: 10%;
+    margin-top: 60px;
 }
 
 .menu-sneak-peak{
@@ -1368,16 +1368,16 @@ padding-top: 100px;
         line-height:60px ;
     }
     .para-db-font{
-        color: var(--para-font-size-1024px);
-        font-size: var(--dark-brown-font-color);
+        color: var(--dark-brown-font-color);
+        font-size: var(--para-font-size-1024px);
         font-family: var(--outfit-font-family);
-        line-height: 20px;
+        line-height: 26px;
     }
     .para-b-font{
         color: var(--brown-font-color);
         font-size: var(--para-font-size-1024px);
         font-family: var(--outfit-font-family);
-        line-height: 20px;
+        line-height: 26px;
     }
 
     .wrapper{
@@ -1716,6 +1716,7 @@ padding: 10% 3% 0 3%;
 .save-time-part-2 img{
     width: 80%;
     margin-left: 10%;
+    margin-top: 0px;
 }
 .menu-sneak-peak{
     height: 800px;
