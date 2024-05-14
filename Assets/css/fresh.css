@@ -802,7 +802,7 @@ background-size: cover;
 }
 .hero-brand-text h1{
     font-size: 190px;
-    line-height: 190px;
+    line-height: 160px;
     font-weight: lighter;
 }
 .hero-brand-text ul{
@@ -1654,6 +1654,17 @@ padding: 10% 3% 0 3%;
 }
 
 /* ------------------------------------------------------Brand------------------------------------------------------------ */
+.hero-brand-text h1 {
+    font-size: 135px;
+    line-height: 110px;
+    text-align: center;
+}
+
+.investor-hero-title{
+    font-size: 135px;
+    line-height: 110px;
+}
+
 .chef-meal-section{
     margin-top: 100px;
 }
