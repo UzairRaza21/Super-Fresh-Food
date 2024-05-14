@@ -161,7 +161,10 @@
     .delicious-inner-text p{
         max-width: 100% ;
     }
-
+    
+    .stock-title{
+    text-align: center;
+    }
     .stock-info{
         height: 1100px;
     }
@@ -169,6 +172,10 @@
         grid-template-columns: repeat(auto-fit, minmax(200px, 100%));
     }
 
+
+    .investor-info-inner{
+        text-align: center;
+    }
     .investor-info-cart-section{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(250px, 100%));
@@ -176,6 +183,10 @@
         align-items: center;
         gap: 20px;
         margin: 5% auto;
+    }
+
+    .contact-info-inner{
+        text-align: center;
     }
 }
 
@@ -192,18 +203,52 @@
     .delicious-inner-text h2 {
         font-size: 35px;
     }
+
+
     
     
 }
 
 @media screen and (max-width: 425px) {
+    .investor-hero-title{
+        font-size: 55px;
+        line-height: 55px;
+    }
     .delicious-inner-text h2 {
         font-size: 28px;
     }
     .stock-info-inner {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    }
+    .contact-info-data p{
+        width: 80%;
+    }
 
+    .delicious{
+        height: 1100px;
+    }
+
+
+}
+@media screen and (max-width: 375px) {
+    .stock-info-inner {
         grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
     }
+
+    .contact-info-data p{
+    width: 100%;
+    }
+    
+.contact-info-data{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contact-data-img img{
+    width: 60%;
+}
 }
 
 
