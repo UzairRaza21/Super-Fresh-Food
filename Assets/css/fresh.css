@@ -26,7 +26,7 @@ body{
     --main-font-size-1024px: 70px;
     --para-font-size-1024px: 26px;
     --main-font-size-768px: 60px;
-    --para-font-size-768px: 22px;
+    --para-font-size-768px: 24px;
     --main-font-size-425px: 50px;
     --para-font-size-425px: 20px;
 }
@@ -1027,6 +1027,8 @@ padding-top: 100px;
     gap: 30px;
     justify-content: center;
     margin-top: 100px;
+    position: relative;
+    z-index: 1;
   }
   .price-carts{
     border: 3px dotted var(--dark-brown-font-color);
@@ -1069,6 +1071,7 @@ padding-top: 100px;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: -100px;
+    margin-top: -100px;
   }
   .plan-price-bottom-text{
     padding-top: 180px;
@@ -1211,6 +1214,10 @@ padding-top: 100px;
         padding-top: 100px;
     }
 
+    .slider-main-part {
+        max-width: 65%;
+    }
+
 }
 @media screen and (max-width: 1800px) {
     .mission-section {
@@ -1256,12 +1263,12 @@ padding-top: 100px;
 
 @media screen and (max-width: 1440px) {
     .wrapper{
-        padding: 0 10% 0 10%;
+        padding: 0 5% 0 5%;
     }
     .nav-inner{
         display: flex;
         justify-content: space-between;
-        padding: 0 10%;
+        padding: 0 5%;
     }
     .nav-links{
         margin-left: 3%;
@@ -1272,42 +1279,42 @@ padding-top: 100px;
     }
 
     .hero-section{
-        padding: 0 10%;
+        padding: 0 5%;
     }
     .choose-section {
-        padding: 0 10%;
+        padding: 0 5%;
     }
     .mission-section {
         margin-top: -48%;
-        padding: 0 10%;
+        padding: 0 5%;
     }
 
     .news-section {
         justify-content: space-between;
-        padding: 0 10%;
+        padding: 0 5%;
     }
     .footer-main {
-        padding: 80px 10% 80px 10%;
+        padding: 80px 5% 80px 5%;
     }
 
 
     /* --------------------------------------------------COMPANY------------------------------------------------------------------ */
 .hero-section-company{
-    padding: 0 10% 0 10%;
+    padding: 0 5% 0 5%;
     }
     .company-mid-section{
-        padding: 0 10% 0 10%;
+        padding: 0 5% 0 5%;
     }
 
     .company-approach-text {
-        padding: 0 10% 0 10%;
+        padding: 0 5% 0 5%;
         margin-top: -53%;
         width: 50%;
     }
 
 
     .advantage-process-section{
-        padding: 0 10% 0 10%;
+        padding: 0 5% 0 5%;
     }
 
     .menu-sneak-inner {
@@ -1794,10 +1801,10 @@ padding-top: 100px;
         line-height: 40px;
     }
     .para-db-font{
-        color: var(--para-font-size-768px);
-        font-size: var(--dark-brown-font-color);
+        color: var(--dark-brown-font-color);
+        font-size: var(--para-font-size-768px);
         font-family: var(--outfit-font-family);
-        line-height: 16px;
+        line-height: 26px;
     }
     .para-b-font{
         color: var(--brown-font-color);
@@ -1816,6 +1823,10 @@ padding-top: 100px;
         font-size: var(--para-font-size-1200px);
         text-align: center;
         margin: 20px auto;
+    }
+
+    .meal-section {
+        gap: 70px;
     }
     
     .no-section{
